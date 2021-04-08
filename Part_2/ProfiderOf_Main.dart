@@ -6,10 +6,6 @@ void main() {
   runApp(MyApp());
 }
 
-void _incrementCounter(BuildContext context) {
-  Provider.of<Counter>(context, listen: false).incrementCounter();
-}
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
